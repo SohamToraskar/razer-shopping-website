@@ -1,0 +1,29 @@
+/*  Created on : 7.4.2015, 20:43:12 Author     : tvaliasek
+*/
+/*colors*/
+/*width of whole menu*/
+/*MENU WRAPPER*/
+/* line 16, ../scss/callToScroll.scss */
+div#ctsElsWrapper { position: fixed; top: 20vh; right: 2em; display: none; z-index: 1500; vertical-align: top; width: 80px; max-width: 80px; height: auto; /*DIRECTION ARROWS*/ /*DOT LINKS*/ }
+/* line 28, ../scss/callToScroll.scss */
+div#ctsElsWrapper > .cts-arrow { display: block; position: relative; width: 80px; height: 20px; }
+/* line 34, ../scss/callToScroll.scss */
+div#ctsElsWrapper > .cts-arrow polyline.cts-svg-arrow { fill: none; stroke: #b1b1b1; stroke-width: 3; -moz-transition: stroke 300ms ease-in 0s; -o-transition: stroke 300ms ease-in 0s; -webkit-transition: stroke 300ms ease-in; -webkit-transition-delay: 0s; transition: stroke 300ms ease-in 0s; }
+/* line 41, ../scss/callToScroll.scss */
+div#ctsElsWrapper > .cts-arrow.cts-active polyline.cts-svg-arrow { stroke: #dc642d; -moz-transition: stroke 300ms ease-in 0s; -o-transition: stroke 300ms ease-in 0s; -webkit-transition: stroke 300ms ease-in; -webkit-transition-delay: 0s; transition: stroke 300ms ease-in 0s; }
+/* line 47, ../scss/callToScroll.scss */
+div#ctsElsWrapper > p.cts-text { text-align: center; margin: 1.5em 0em; font-weight: normal; color: #b1b1b1; display: block; width: 80px; max-width: 80px; }
+/* line 58, ../scss/callToScroll.scss */
+div#ctsElsWrapper > #ctsDotsWrapper { display: block; position: relative; width: 80px; height: auto; text-align: center; }
+/* line 65, ../scss/callToScroll.scss */
+div#ctsElsWrapper > #ctsDotsWrapper > a.cts-dot { display: block; position: relative; border: none; outline: none; margin: 1em auto; }
+/* line 72, ../scss/callToScroll.scss */
+div#ctsElsWrapper > #ctsDotsWrapper > a.cts-dot circle { fill: #b1b1b1; -moz-transition: fill 250ms ease-in-out 0s; -o-transition: fill 250ms ease-in-out 0s; -webkit-transition: fill 250ms ease-in-out; -webkit-transition-delay: 0s; transition: fill 250ms ease-in-out 0s; }
+/* line 77, ../scss/callToScroll.scss */
+div#ctsElsWrapper > #ctsDotsWrapper > a.cts-dot.cts-active circle { fill: #dc642d; -moz-transition: fill 250ms ease-in-out 0s; -o-transition: fill 250ms ease-in-out 0s; -webkit-transition: fill 250ms ease-in-out; -webkit-transition-delay: 0s; transition: fill 250ms ease-in-out 0s; }
+/* line 83, ../scss/callToScroll.scss */
+div#ctsElsWrapper > #ctsDotsWrapper > a.cts-dot:first-child { margin-top: 1.7em; }
+
+/*MEDIA QUERIES - SHOW MENU ONLY ON BIGGER DEVICES*/
+@media (min-width: 750px) { /* line 91, ../scss/callToScroll.scss */
+  div#ctsElsWrapper { display: inline-block; } }

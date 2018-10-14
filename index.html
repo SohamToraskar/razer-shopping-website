@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Razer India - Welcome</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./jquery/index.js"></script>
+
+
+
+</head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <img src="./img/logo.png">
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#mice">Mouse</a></li>
+            <li><a href="#keyboard">Keyboard</a></li>
+            <li><a href="#laptop">Laptop</a></li>
+            <li><a href="#headset">Headset</a></li>
+            <li id="cart"><input type="image" src="./img/cart.png" onClick="cartinfo()"><span id="carttotal">(Total Amount Rs 0 - items 0)</span></li>
+          </ul>
+
+
+
+          <nav>
+      </div>
+
+    </header>
+
+
+    <section id="showcase">
+      <div class="container" id="home">
+        <h1>Razer Store</h1>
+
+      </div>
+    </section>
+
+
+<div class="container">
+
+    <section class=posts>
+
+      <div class="heading" id="mice">
+        <p>Gaming Mice</p>
+      </div>
+        <div class="post">
+          <img src="./img/mouse1.png" >
+          <p class="product">Razer DeathAdder Essential</p>
+          <p class="price">Rs 2,800</p>
+          <button type="submit" class="button_1" onClick="addItem('2800')">Add to cart</button>
+        </div>
+
+
+        <div class="post">
+          <img src="./img/mouse2.png" >
+          <p class="product">Razer Mamba Tournament</p>
+          <p class="price">Rs 5,200</p>
+          <button type="submit" class="button_1" onClick="addItem('5200')">Add to cart</button>
+        </div>
+
+        <div class="post">
+          <img src="./img/mouse3.png" >
+          <p class="product">Razer Lancehead Tournament</p>
+          <p class="price">Rs 5,999</p>
+          <button type="submit" class="button_1" onClick="addItem('4999')">Add to cart</button>
+        </div>
+
+
+        <div class="post">
+          <img src="./img/mouse4.png" >
+          <p class="product">Razer Naga Hex V2</p>
+          <p class="price">Rs 6,300</p>
+          <button type="submit" class="button_1" onClick="addItem('6300')">Add to cart</button>
+        </div>
+
+
+<div class="container">
+        <div class="heading" id="keyboard">
+          <p>Gaming Keyboards</p>
+        </div>
+          <div class="post">
+            <img src="./img/keyboard1.png" >
+            <p class="product">Razer BlackWidow X Chroma </p>
+            <p class="price">Rs 11,250</p>
+            <button type="submit" class="button_1" onClick="addItem('11250')">Add to cart</button>
+          </div>
+
+
+          <div class="post">
+            <img src="./img/keyboard2.png" >
+            <p class="product">RazerOrnata Chroma </p>
+            <p class="price">Rs 9,500</p>
+            <button type="submit" class="button_1" onClick="addItem('9500')">Add to cart</button>
+          </div>
+
+          <div class="post">
+            <img src="./img/keyboard3.png" >
+            <p class="product">Razer BlackWidow Tournament </p>
+            <p class="price">Rs 12,850</p>
+            <button type="submit" class="button_1" onClick="addItem('12850')">Add to cart</button>
+          </div>
+          <div class="post">
+            <img src="./img/keyboard4.png" >
+            <p class="product">Razer Cynosa Chroma </p>
+            <p class="price">Rs 7,100</p>
+            <button type="submit" class="button_1" onClick="addItem('7100')">Add to cart</button>
+          </div>
+  </div>
+
+<div class="container">
+          <div class="heading" id="laptop">
+            <p>Gaming Laptops</p>
+          </div>
+            <div class="post">
+              <img src="./img/laptop1.png" >
+              <p class="product">Razer Blade Stealth 13 </p>
+              <p class="price">Rs 96,250</p>
+              <button type="submit" class="button_1" onClick="addItem('96250')">Add to cart</button>
+            </div>
+
+
+            <div class="post">
+              <img src="./img/laptop2.png" >
+              <p class="product">Razer Blade 15 </p>
+              <p class="price">Rs 1,47,500</p>
+              <button type="submit" class="button_1" onClick="addItem('147500')">Add to cart</button>
+            </div>
+
+            <div class="post">
+              <img src="./img/laptop3.png" >
+              <p class="product">Razer Blade Pro 17 </p>
+              <p class="price">Rs 2,35,000</p>
+              <button type="submit" class="button_1" onClick="addItem('235000')">Add to cart</button>
+            </div>
+
+    </div>
+<div class="container">
+            <div class="heading" id="headset">
+              <p>Gaming Headsets</p>
+            </div>
+              <div class="post">
+                <img src="./img/head1.png" >
+                <p class="product">Destiny 2 Razer ManO'War</p>
+                <p class="price">Rs 6,600</p>
+                <button type="submit" class="button_1" onClick="addItem('6600')">Add to cart</button>
+              </div>
+
+
+              <div class="post">
+                <img src="./img/head2.png" >
+                <p class="product">Overwatch Razer ManO’War</p>
+                <p class="price">Rs 6,300</p>
+                <button type="submit" class="button_1" onClick="addItem('6300')">Add to cart</button>
+              </div>
+
+              <div class="post">
+                <img src="./img/head3.png" >
+                <p class="product">Razer Kraken 7.1 V2</p>
+                <p class="price">Rs 9,450</p>
+                <button type="submit" class="button_1" onClick="addItem('9450')">Add to cart</button>
+              </div>
+              <div class="post">
+                <img src="./img/head4.png" >
+                <p class="product">Kraken Pro V2 Quartz</p>
+                <p class="price">Rs 4,500</p>
+                <button type="submit" class="button_1" onClick="addItem('4500')">Add to cart</button>
+              </div>
+  </div>
+
+
+
+      </section>
+      </div>
+
+    <footer >
+
+      <h4>Contact Me</h4>
+        <div class="about">Soham S Toraskar, Sairaj Halankar</div>
+
+      <p>Soham Web Designs, Copyright &copy; 2018</p>
+    </footer>
+
+  </body>
+
+</html>
